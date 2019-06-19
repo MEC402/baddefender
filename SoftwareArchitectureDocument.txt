@@ -84,6 +84,36 @@ Levels
 
 
 Classes
+Screen_Object
+  Instance Variables
+    Position: Point(X,Y)
+  Methods
+    GetX [Retrieves the X Coordinate]
+    SetX [Sets the X Coordinate]
+    GetY [Retrieves the Y Coordinate]
+    SetY [Sets the Y Coordinate]
+
+Player (extends Screen_Object)
+  Instance Variables
+    Int numLives = 3
+    Int score
+  Methods
+    moveUp [Moves the spaceship up by decreasing the super(SetX)]
+    moveDown [Moves the spaceship down by increasing the super(SetX)]
+    shoot [Fires a projectile from the spaceship]
+    loseLife [Decrements numLives by 1]
+
+
+Enemy (extends Screen_Object)
+  Instance Variables
+    int numPoints [Number of points the enemy will give to the player]
+  Methods
+    followPlayer [Will change the Super(X) coordinate to follow the player]
+    shoot [will fire a projectile toward the player]
+
+Projectile (extends Screen_Object)
+  Instance Variables
+  Methods
 
 
 
