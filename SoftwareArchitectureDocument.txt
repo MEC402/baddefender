@@ -115,23 +115,69 @@ Projectile (extends Screen_Object)
   Instance Variables
   Methods
 
+Obstacle (Extends Screen_Object)
+  Instance Variables
+  Methods
+
+Background_Object (Extends Screen_Object)
+  Instance Variables
+  Methods
+
+Packages
+
+This game relies on the open-source framework PIXIJS. This framework offloads the rendering to
+the machine's Graphics Processing Unit so that it can run at a silky smooth 60 FPS.
+
+
+2.3 Implementation View
+
+MAKE A PICTURE DIAGRAM 
+
+
+2.4 Process View
+
+The Process of this program will consist of an infinite loop called the game loop, with four 
+key steps.
+
+  i. Accept User Inputs 
+  ii. Change coordinates of objects
+  iii. Detect any collisions and react accordingly
+  iv. Render the objects in their new coordinates
+
+
+2.5 Deployment View
+
+This project will be deployed on a Boise State University server and will be made publicly and
+freely available on the web.
+
+
+2.6 Data View
+
+A mySQL database will be used to store the high scores (if the user wishes to submit) and 
+will be able to be viewed from the title screen. HashTables will be used to store all of 
+the Screen_Objects that are rendered onscreen. When the on-screen rendering is performed, 
+the entire HashTable will be walked through, but for fast inserting and deleting, a HashTable 
+will be used.
+
 
 
 3. Architectural Goals and Constraints
 
-[This section describes the software requirements and objectives
- that have some significant impact on the architecture, for example
- , safety, security, privacy, use of an off-the-shelf product, portability, 
- distribution, and reuse. It also captures the special constraints that ma
- y apply: design and implementation strategy, development tools, team structure,
-  schedule, legacy code, and so on.]
+The goal of this product is to create a simple, lightweight game using the PIXIJS framework,
+that will be completed by the end of Summer 2019. The only obstacles I have facing me in
+this project is the amount of time I currently have to dedicate to it.
 
 
 
+4. Use-Case View
 
-4.                  Use-Case View
+[This section lists use cases or scenarios from the use-case model if they represent 
+some significant, central functionality of the final system, or if they have a large 
+architectural coverage - they exercise many architectural elements, or if they stress 
+or illustrate a specific, delicate point of the architecture.]
 
-[This section lists use cases or scenarios from the use-case model if they represent some significant, central functionality of the final system, or if they have a large architectural coverage - they exercise many architectural elements, or if they stress or illustrate a specific, delicate point of the architecture.]
+
+
 4.1               Use-Case Realizations
 
 [This section illustrates how the software actually works by giving a few selected use-case (or scenario) realizations, and explains how the various design model elements contribute to their functionality.]
