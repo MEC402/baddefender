@@ -171,19 +171,25 @@ this project is the amount of time I currently have to dedicate to it.
 
 4. Use-Case View
 
-[This section lists use cases or scenarios from the use-case model if they represent 
-some significant, central functionality of the final system, or if they have a large 
-architectural coverage - they exercise many architectural elements, or if they stress 
-or illustrate a specific, delicate point of the architecture.]
+The user will be able to: View the instructions for the game, View the highscores of the
+game saved in the mySQL database, begin the game, move the ship up and down, and fire 
+missles.
 
 
+4.1  Use-Case Realizations
 
-4.1               Use-Case Realizations
+ TODO: CREATE A UML DIAGRAM
 
-[This section illustrates how the software actually works by giving a few selected use-case (or scenario) realizations, and explains how the various design model elements contribute to their functionality.]
-5.                  Logical View
 
-[This section describes the architecturally significant parts of the design model, such as its decomposition into subsystems and packages. And for each significant package, its decomposition into classes and class utilities. You should introduce architecturally significant classes and describe their responsibilities, as well as a few very important relationships, operations, and attributes.]
+5. Logical View
+
+[This section describes the architecturally significant parts of the design model,
+ such as its decomposition into subsystems and packages. And for each significant 
+ package, its decomposition into classes and class utilities. You should introduce 
+ architecturally significant classes and describe their responsibilities, as well 
+ as a few very important relationships, operations, and attributes.]
+
+
 5.1               Overview
 
 [This subsection describes the overall decomposition of the design model in terms of its package hierarchy and layers.]
